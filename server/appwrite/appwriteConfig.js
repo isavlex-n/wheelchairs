@@ -2,7 +2,7 @@ import {Client, Account, Databases} from 'appwrite'
 
 const client = new Client();
 
-client.setEndpoint("http://wheelchairs.vercel.app").setProject("64faf902099fc912dc1a")
+client.setEndpoint("https://wheelchairs.vercel.app").setProject("64faf902099fc912dc1a")
 
 export const account = new Account(client)
 
