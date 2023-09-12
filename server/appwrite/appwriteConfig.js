@@ -8,4 +8,4 @@ export const account = new Account(client)
 
 //Database
 
-export const databases = new Databases(client, "65000d86362b9fafc2b1")
+export const databases = new Databases(client)

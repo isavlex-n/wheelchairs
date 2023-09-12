@@ -14,7 +14,7 @@
     },
     methods: {
       loadProducts() {
-        const products = databases.listDocuments('650027fbd887f0edb021')
+        const products = databases.listDocuments('65000d86362b9fafc2b1', '650027fbd887f0edb021')
         products.then(
           function(res) {
             this.products = res.documents
